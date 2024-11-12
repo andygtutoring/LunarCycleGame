@@ -1,0 +1,50 @@
+<!-- lunarCycleGame.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Cycle: Moonlit Grove</title>
+    <link rel="stylesheet" href="lunarCycleGame.css">
+  </head>
+  <body>
+    <div class="game-container">
+      <div class = "gameWorld">
+        <div class="grove"></div>
+        <div id="lunar-cycle"></div>
+      </div> <!-- /gameWorld -->
+      
+      <!-- Player Resources -->
+      <div id="player-resources">
+        <h2>Resources</h2>
+        <div id="player-currencies"></div>
+        <div id="player-plants"></div>
+        <div id="player-harvested-plants"></div>
+        <div id="player-crafted-items"></div>
+      </div>
+      
+      <div class="visitor-creatures"></div>
+      <button id="plant-button">Plant Moonbloom</button>
+      <button id="harvest-button">Harvest Moonbloom</button>
+      <button id="craft-button">Craft Lunar Sword</button>
+    </div>
+    
+    <!-- SCRIPTS -->
+    
+    <!-- GAME ENGINE ELEMENTS -->
+    <script src="game/Game.Class.js"></script>
+    <script src="game/LunarCycle.Class.js"></script>
+    <script src="game/PlayerResources.Class.js"></script>
+    
+    <!-- CONTENT -->
+    <script src="game/CraftingRecipes.js"></script>
+    <script src="game/Plants.js"></script>
+    <script src="game/PlantGrowthStages.js"></script>
+    
+    <!-- ENTITIES (ITEMS AND CREATURES) -->
+    <script src="entities/Plant.Class.js"></script>
+    <script src="entities/VisitorCreature.Class.js"></script>
+    <script src="lunarCycleGame.js"></script>
+  </body>
+</html>
+

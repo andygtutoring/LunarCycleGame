@@ -1,0 +1,49 @@
+/* lunarCycleGame.css */
+.game-container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.gameWorld {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grove {
+  width: 50%;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+#lunar-cycle {
+  width: 30%;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+#player-resources {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.visitor-creatures {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
